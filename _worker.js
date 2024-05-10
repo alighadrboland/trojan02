@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let password = 'auto';
-let proxyIP = '';
+let password = 'a42f968969b90f96963bd306fdd6345c40e4bd352810e5bdc0fff5fc';
+let proxyIP = 'proxy.alighadrboland.ir';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
