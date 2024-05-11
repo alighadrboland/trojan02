@@ -1,6 +1,6 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-let password = 'tr01';
+let password = 'tr02';
 let proxyIP = 'pa.alighadrboland.ir';
 
 let addresses = [
