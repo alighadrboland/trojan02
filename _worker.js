@@ -1,8 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'tr02';
-const proxyIPs = ['cdn-all.xn--b6gac.eu.org','cdn.xn--b6gac.eu.org','workers.cloudflare.cyou','edgetunnel.anycast.eu.org','workers.bestip.one','proxyip.aliyun.fxxk.dedyn.io','proxyip.vultr.fxxk.dedyn.io','proxyip.multacom.fxxk.dedyn.io'];
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyIP =['pa.alighadrboland.ir'];
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
